@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+python-dotenv
+openai
+aiohttp
+requests
+pydantic
+azure-core
+azure-ai-contentsafety==1.0.0
+PyYAML
+PyJWT
+bcrypt==4.0.1
+passlib==1.7.4
+SQLAlchemy
+python-multipart

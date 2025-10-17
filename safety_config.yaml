@@ -1,0 +1,35 @@
+age_bands:
+  child:
+    max_age: 12
+    severity_thresholds:
+      sexual: 0
+      violence: 1
+      self_harm: 0
+      hate: 0
+  teen:
+    max_age: 17
+    severity_thresholds:
+      sexual: 1
+      violence: 2
+      self_harm: 1
+      hate: 1
+  adult:
+    max_age: 120
+    severity_thresholds:
+      sexual: 2
+      violence: 2
+      self_harm: 2
+      hate: 2
+retention:
+  prompt_days: 7
+literacy:
+  injection_interval: 5
+escalation:
+  self_harm_severity: 3
+  violence_severity: 4
+anthropomorphism:
+  banned_phrases:
+    - "I love you"
+    - "I feel sad"
+    - "I am your friend"
+    - "I have feelings"
